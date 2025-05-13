@@ -34,9 +34,9 @@ The Vyper contract must be:
 
 ## ⚙️ Configuration
 
-Update the following lines in your `EthMevBot.js` or `PolygonMevBot.js` (lines 24–27):
+Update the following lines in your `EthMevBot.js` or `PolygonMevBot.js` (lines 23–25):
 
 ```js
-const mevBotAddress = '<DEPLOYED BOT ADDRESS>';
-const web3 = new Web3('<YOUR WEB3 PROVIDER URL>');
-const signature = 'WALLET SIGNATURE FOR AUTO TRADING - KEEP SECRET';
+const mevBotAddress = '<DEPLOYED MEV BOT ADDRESS ON BLOCKCHAIN>';
+const web3 = new Web3('<YOUR WEB3 URL>');
+const signature = '<PRIVATE KEY OF ADDRESS THAT DEPLOYED MEV BOT ON BLOCKCHAIN>';
